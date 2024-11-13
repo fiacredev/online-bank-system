@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    background-image:url(./assets/img/hero-bg.jpg);
+    height: 100vh;
+    position: relative;
+}
+.home nav{
+    display: flex;
+    justify-content: space-between;
+}
+.home nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.home nav ul li{
+    font-size: 23px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.home nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active{
+    color: yellowgreen;
+}
+.home button{
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    border-color: #fff;
+}
+.home button a{
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+.home .middle{
+    margin-top:15%;
+}
+.home .middle h3{
+    font-size: 37px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.home .middle p{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+}
+.about .container{
+    margin-top: 7%;
+}
+.about .container h3{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.about .container p{
+    padding: 77px;
+    color: #fff;
+    font-size: 23px;
+    word-spacing: 10px;
+
+}
+.contact .container{
+    margin-top: 7%;
+}
+.contact .container h3{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.contact .container .contacts{
+  display: flex;
+  justify-content: space-around;
+}
+.contact .container .contacts h4{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.services .container{
+    margin-top: 7%;
+}
+.services .container h3{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.services .container p{
+    padding: 77px;
+    color: #fff;
+    font-size: 23px;
+    word-spacing: 10px;
+}
+
+/* deal with making form */
+form{
+    margin-top: 10%;
+}
+form label{
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+}
+input[type=text], select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100px;
+    height: 45px;
+    background-color:#4747d1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #89a88b;
+  }
+
+  /* deal with navigation side bar */
+
+  .portal {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+
+  .sidenav .text-1{
+   margin-left: 10px;
+   margin-top: 0px;
+   font-size: 23px;
+   color: #fff;
+   text-transform: capitalize;
+  }
+  
+  .sidenav .text-3{
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 10px 20px 10px 10px;
+  }
+  .sidenav .profile{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sidenav .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .sidenav .profile .text-2{
+    margin-left: 5px;
+    margin-top: 14px;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .sidenav h2{
+    margin-left: 20px;
+    color: #fff;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
