@@ -1,3 +1,4 @@
+<!-- this files is about dealing with dopising logic functionalities -->
 <?php 
 include "connection.php";
 

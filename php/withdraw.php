@@ -1,3 +1,4 @@
+<!-- this code file is about withdrawing money from one account to another -->
 <?php 
 include "connection.php";
 

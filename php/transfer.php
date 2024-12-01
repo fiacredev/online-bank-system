@@ -1,4 +1,4 @@
-
+<!-- here we are dealing with money transfering from one account to another -->
 <?php 
 
 include "connection.php";
