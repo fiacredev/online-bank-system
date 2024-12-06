@@ -1,3 +1,5 @@
+<!-- the part about dashboard on the project -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
